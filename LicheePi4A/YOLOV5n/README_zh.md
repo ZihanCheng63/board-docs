@@ -18,8 +18,9 @@
 
 
 # **RuyiSDK示例**
-##**安装依赖包**
-###**安装docker**
+本示例暂未验证，只描述过程
+## **安装依赖包**
+### **安装docker**
 ```bash
 sudo apt update
 sudo apt install -y ca-certificates curl
