@@ -6,14 +6,14 @@ provider: milkv
 status: peripheral 
 last_update: 2026-04-23
 model: Milk-V Duo S
-profile: adc
+profile: ADC
 ---
 
-# RuyiSDK 芯片功能示例
+# RuyiSDK 外设示例
 
-### 安装 ruyi
+可直接在开发板上进行编译和运行的示例，适合初学者快速上手。
 
-#### 安装依赖包
+安装依赖包
 
 ```
 
@@ -21,7 +21,7 @@ sudo apt update; sudo apt install -y wget tar zstd xz-utils git build-essent
 
 ```
 
-#### 安装 ruyi 包管理器
+安装 ruyi 包管理器
 
 ```
 
@@ -33,7 +33,7 @@ sudo cp -v ruyi-0.47.0.riscv64 /usr/local/bin/ruyi
 
 ```
 
-#### 安装工具链
+安装工具链
 
 ```
 
@@ -43,7 +43,7 @@ ruyi install gnu-plct llvm-plct
 
 ```
 
-## ADC 芯片功能测试
+## ADC
 
 本文介绍如何使用 RuyiSDK 在 Milk-V Duo S 开发板上快速部署编译环境，并构建 ADC 测试程序，验证芯片内部模数转换器通道的读取功能。
 

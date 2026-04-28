@@ -1,15 +1,15 @@
 ---
-sys: RuyiSDK
-sys_ver: 0.46.0
-sys_var: Debian
+sys: debian
+sys_ver: v1.6.35
+sys_var: null
 provider: milkv
-status: basic
+status: peripheral
 last_update: 2026-04-09
 model: Milk-V Duo S
-profile: blink
+profile: Blink
 ---
 
-# RuyiSDK 系统通信示例
+# RuyiSDK 外设示例
 
 可直接在开发板上进行编译和运行的示例，适合初学者快速上手。
 
@@ -25,11 +25,11 @@ sudo apt update; sudo apt install -y wget tar zstd xz-utils git build-essent
 
 ```
 
-wget https://mirror.iscas.ac.cn/ruyisdk/ruyi/tags/0.46.0/ruyi-0.46.0.riscv64
+wget https://mirror.iscas.ac.cn/ruyisdk/ruyi/tags/0.47.0/ruyi-0.47.0.riscv64
 
-chmod +x ruyi-0.46.0.riscv64
+chmod +x ruyi-0.47.0.riscv64
 
-sudo cp -v ruyi-0.46.0.riscv64 /usr/local/bin/ruyi
+sudo cp -v ruyi-0.47.0.riscv64 /usr/local/bin/ruyi
 
 ```
 
