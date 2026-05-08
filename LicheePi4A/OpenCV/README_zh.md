@@ -1,13 +1,13 @@
 ---
-sys: debian
-sys_ver: 12 (Bookworm)
-sys_var: 
-provider: PLCT/Sipeed
+sys: revyos
+sys_ver: "20250930"
+sys_var: null
+
 status: cv
 last_update: 2026-04-21
 
-model: LicheePi 4A
-profile: sipeed-lpi4a-opencv
+model: Lichee Pi 4A
+profile: OpenCV
 
 ---
 
