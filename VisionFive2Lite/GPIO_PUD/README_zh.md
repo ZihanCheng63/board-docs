@@ -39,6 +39,13 @@ profile: GPIO_PUD
 2. 硬件环境：VisionFive 2 Lite 开发板（eMMC 版本）
 3. 软件环境：Debian 12 for RISC-V 系统，已联网可正常访问外部仓库。
 
+- #### 连接到开发板
+
+  ```
+  ssh user@172.20.10.2
+  ```
+  默认用户/密码：用户名 `user`，密码 `starfive`
+
 - #### 创建并激活 ruyi 虚拟环境
 
   ```bash
