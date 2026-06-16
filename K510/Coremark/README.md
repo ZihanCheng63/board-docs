@@ -6,7 +6,7 @@ sys_var: null
 status: basics
 last_update: 2026-06-14
 
-model: Canaan K510 CRB-V1.2 KIT
+model: Canaan K510-CRB-V1.2 KIT
 profile: Coremark
 
 ---
