@@ -107,7 +107,7 @@ ruyi venv -t toolchain/llvm-plct --sysroot-from gnu-plct generic llvm-env
 验证LLVM版本
 
 ```
-clang -v
+clang-14 -v
 ```
 
 编译Hello World（LLVM）
